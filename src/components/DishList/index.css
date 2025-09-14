@@ -1,0 +1,16 @@
+.dishes-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .dishes-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
